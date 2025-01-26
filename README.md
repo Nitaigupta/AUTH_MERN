@@ -27,26 +27,8 @@ PORT=5000
 MONGO_URI=<your_mongodb_connection_string>
 JWT_SECRET=<your_jwt_secret_key>
 npm run dev
-backend/
-│
-├── controllers/
-│   └── authController.js   # Handles business logic for authentication
-│
-├── middlewares/
-│   └── authMiddleware.js   # Protects routes with JWT authentication
-│
-├── models/
-│   └── User.js             # Mongoose schema for users
-│
-├── routes/
-│   └── authRoutes.js       # Defines API routes
-│
-├── config/
-│   └── db.js               # MongoDB connection configuration
-│
-├── .env                    # Environment variables
-├── server.js               # Entry point of the application
-└── package.json            # Dependencies and scripts
+
+
 
 
 ### How to Use
